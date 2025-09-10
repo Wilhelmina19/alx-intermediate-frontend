@@ -1,0 +1,28 @@
+# 0-installation-script
+# Steps to install and set up Sass
+
+# 1. Create the project directory
+cd ~/alx-intermediate-frontend
+mkdir -p 0x03-sass_scss
+cd 0x03-sass_scss
+
+# 2. (Optional) Install nvm (Node Version Manager) on Ubuntu
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+
+# 3. Exit the terminal and reopen it (or run source ~/.bashrc)
+exit
+# then reopen terminal
+
+# 4. Install Node.js version 20.16 using nvm
+nvm install 20.16
+nvm use 20.16
+
+# 5. Verify Node.js and npm installation
+node -v
+npm -v
+
+# 6. Install Sass using npm
+npm install sass -v 3.7.4
+
+# 7. Verify Sass installation
+npx sass --version
